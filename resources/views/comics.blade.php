@@ -6,14 +6,14 @@
 
 @section('content')
     <section>
-        <ul>
-            @foreach ($comics as $comic)
-            <li>
+        @foreach ($comics as $comic)
+            <ul>
                 @foreach ($comic as $info)
-                {{$info}}
+                    <li>
+                        {{$info}}
+                    </li>
                 @endforeach
-            </li>
-            @endforeach
-        </ul>    
+            </ul>    
+        @endforeach
     </section>
 @endsection
