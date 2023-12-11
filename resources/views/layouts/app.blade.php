@@ -16,7 +16,10 @@
 </head>
 
 <body>
-Hello world
+
+        @include('partials.header')
+
+        @include('partials.footer')
 
 </body>
 
